@@ -63,7 +63,7 @@ section {
   margin-bottom: 20px;
 }
 .section_heading {
-  font-size: 40px;
+  font-size: 2.1rem;
   font-weight: 700;
   line-height: 1.3;
 }
@@ -180,6 +180,58 @@ section {
 .v_slider .owl-dots {
   display: none;
 }
+
+.connectTo .item {
+  -webkit-border-top-left-radius: 12px;
+  -moz-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  -moz-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+}
+
+.connectTo .img {
+  overflow: hidden;
+}
+.connectTo .img img {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.connectTo .img:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.connectTo .slide-info {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+}
+
+.connectTo .slide-info p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.connectToWrapper {
+  padding-bottom: 50px;
+}
+
+.connectTo.owl-theme .owl-dots .owl-dot span,
+.connectTo.owl-theme .owl-dots .owl-dot span {
+  width: 50px;
+  background: #eb0a1e;
+  opacity: 0.6;
+}
+
+.connectTo.owl-theme .owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
 @media (max-width: 991px) {
   .section_heading {
     font-size: 1.5rem;
@@ -191,6 +243,13 @@ section {
 
   .v_slider {
     height: auto;
+  }
+  .connectTo.owl-theme .owl-dots .owl-dot span,
+  .connectTo.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+  }
+  .connectTo .slide-info p {
+    font-size: 18px;
   }
 }
 
