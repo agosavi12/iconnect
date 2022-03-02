@@ -55,32 +55,68 @@
       <section class="i-connect-slider">
         <div class="slider owl-carousel">
           <div class="slide">
-            <img
-              src="../images/toyota-connect/banner-1.png"
-              class="img-responsive"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width: 991px)"
+                srcset="../images/toyota-connect/m-banner-1.png"
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="../images/toyota-connect/banner-1.png"
+              />
+              <img
+                src="../images/toyota-connect/banner-1.png"
+                alt="Chris standing up holding his daughter Elva"
+              />
+            </picture>
           </div>
           <div class="slide">
-            <img
-              src="../images/toyota-connect/banner-2.png"
-              class="img-responsive"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width: 991px)"
+                srcset="../images/toyota-connect/m-banner-2.png"
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="../images/toyota-connect/banner-2.png"
+              />
+              <img
+                src="../images/toyota-connect/banner-2.png"
+                alt="Chris standing up holding his daughter Elva"
+              />
+            </picture>
           </div>
           <div class="slide">
-            <img
-              src="../images/toyota-connect/banner-3.png"
-              class="img-responsive"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width: 991px)"
+                srcset="../images/toyota-connect/m-banner-3.png"
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="../images/toyota-connect/banner-3.png"
+              />
+              <img
+                src="../images/toyota-connect/banner-3.png"
+                alt="Chris standing up holding his daughter Elva"
+              />
+            </picture>
           </div>
           <div class="slide">
-            <img
-              src="../images/toyota-connect/banner-4.png"
-              class="img-responsive"
-              alt=""
-            />
+            <picture>
+              <source
+                media="(max-width: 991px)"
+                srcset="../images/toyota-connect/m-banner-4.png"
+              />
+              <source
+                media="(min-width: 992px)"
+                srcset="../images/toyota-connect/banner-4.png"
+              />
+              <img
+                src="../images/toyota-connect/banner-4.png"
+                alt="Chris standing up holding his daughter Elva"
+              />
+            </picture>
           </div>
         </div>
         <div class="owlArrows">
@@ -93,7 +129,7 @@
       <!-- intelligent way to connect -->
       <section class="iwc">
         <div class="container v-slider">
-          <div class="col-xs-12 nopadding">
+          <div class="col-xs-12 nopadding v-slider-Wrapper">
             <div class="col-xs-12 col-md-6 nopadding sectionIntro">
               <h2 class="text-uppercase section_heading">
                 The Intelligent Way to Connect
@@ -104,6 +140,16 @@
                 much more using your smartphone or smartwatch.
               </p>
             </div>
+            <div
+              class="col-xs-12 col-md-2 col-md-offset-4 nopadding selectField"
+            >
+              <select class="form-control">
+                <option value="" selected>Select Car</option>
+                <option value="Car 1">Car One</option>
+                <option value="Car 2">Car Two</option>
+                <option value="Car 3">Car Three</option>
+              </select>
+            </div>
           </div>
 
           <ul class="v_slider owl-carousel owl-theme">
@@ -112,9 +158,18 @@
               <div class="listInfo text-center">
                 <h3>Smart Connect</h3>
                 <p>Stay informed. Stay smart.</p>
+                <!--desktop-->
                 <a
                   data-fancybox
                   href="../images/toyota-connect/smart-connect-3x.jpg"
+                  class="hidden-xs"
+                  >Explore More</a
+                >
+                <!--mobile-->
+                <a
+                  data-fancybox
+                  href="../images/toyota-connect/m-smart-connect-3x.jpg"
+                  class="visible-xs"
                   >Explore More</a
                 >
               </div>
@@ -128,9 +183,18 @@
               <div class="listInfo text-center">
                 <h3>Remote Connect</h3>
                 <p>Always in your control.</p>
+                <!--desktop-->
                 <a
                   data-fancybox
                   href="../images/toyota-connect/remote-connect-3x.jpg"
+                  class="hidden-xs"
+                  >Explore More</a
+                >
+                <!--mobile-->
+                <a
+                  data-fancybox
+                  href="../images/toyota-connect/m-smart-connect-3x.jpg"
+                  class="visible-xs"
                   >Explore More</a
                 >
               </div>
@@ -143,9 +207,18 @@
               <div class="listInfo text-center">
                 <h3>Safety Connect</h3>
                 <p>Be secure on the road and off it.</p>
+                <!--desktop-->
                 <a
                   data-fancybox
                   href="../images/toyota-connect/safety-connect-3x.jpg"
+                  class="hidden-xs"
+                  >Explore More</a
+                >
+                <!--mobile-->
+                <a
+                  data-fancybox
+                  href="../images/toyota-connect/m-smart-connect-3x.jpg"
+                  class="visible-xs"
                   >Explore More</a
                 >
               </div>
@@ -159,9 +232,18 @@
               <div class="listInfo text-center">
                 <h3>Service Connect</h3>
                 <p>Keep your car healthy and journeys exciting.</p>
+                <!--desktop-->
                 <a
                   data-fancybox
                   href="../images/toyota-connect/service-connect-3x.jpg"
+                  class="hidden-xs"
+                  >Explore More</a
+                >
+                <!--mobile-->
+                <a
+                  data-fancybox
+                  href="../images/toyota-connect/m-smart-connect-3x.jpg"
+                  class="visible-xs"
                   >Explore More</a
                 >
               </div>
@@ -247,11 +329,23 @@
 
       <!-- Peace of mind -->
       <section class="pom">
-        <img
-          src="../images/toyota-connect/peace-of-mind.jpg"
-          class="img-fluid"
-          alt=""
-        />
+        <div class="col">
+          <picture>
+            <source
+              media="(max-width: 991px)"
+              srcset="../images/toyota-connect/peace-of-mind-mobile.jpg"
+            />
+            <source
+              media="(min-width: 992px)"
+              srcset="../images/toyota-connect/peace-of-mind.jpg"
+            />
+            <img
+              src="../images/toyota-connect/peace-of-mind.jpg"
+              alt="Chris standing up holding his daughter Elva"
+              class="img-responsive"
+            />
+          </picture>
+        </div>
       </section>
 
       <!--================================
