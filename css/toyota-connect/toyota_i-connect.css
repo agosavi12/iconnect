@@ -248,6 +248,75 @@ section {
   opacity: 1;
 }
 
+
+.faqs {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.faqs .panel-heading {
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.faqs .panel-title a {
+  padding: 10px 15px;
+  display: flex;
+    justify-content: space-between;
+}
+
+.faqs .panel-title a:hover, .faqs .panel-title a:focus {
+  text-decoration: none;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 15px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: transparent;
+}
+
+.faqs .panel-default.active {
+  border-color: #eb0a1e;
+}
+
+.panel-title {
+  font-weight: 700;
+}
+
+.faqs .panel-default.active .panel-title a {
+  color: #eb0a1e;
+}
+
+.faqs .panel-default.active .panel-title span {
+  color: #eb0a1e;
+}
+
+.content {
+  display: none;
+  margin-bottom: 15px;
+}
+
+.loadmore-btn {
+  display: table;
+  padding: 10px 15px;
+  border: 1px solid #eb0a1e;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.loadmore-btn:hover, .loadmore-btn:focus {
+  text-decoration: none;
+  background-color: #eb0a1e;
+  color: #ffffff;
+}
+
 @media (max-width: 991px) {
   .section_heading {
     font-size: 1.5rem;
@@ -274,6 +343,10 @@ section {
 
   .iwc {
       padding: 50px 0;
+  }
+
+  .faqs {
+    padding: 50px 0;
   }
 }
 
