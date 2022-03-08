@@ -317,6 +317,100 @@ section {
   color: #ffffff;
 }
 
+.tandc {
+  padding: 25px 0;
+  background-color: #eb0a1e;
+}
+
+.learnmore-btn {
+  display: table;
+  width: 150px;
+  padding: 15px 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+.tandc .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tandc ul li {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.tandc ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.privacy-notice {
+  padding: 15px 0;
+}
+
+.privacy-notice h2 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.privacy-notice p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pp_mainPointers {
+  margin: 50px 0;
+}
+
+.pp_mainPointers h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+table ul li {
+  margin-bottom: 10px;
+}
+
+
+.pp_mainPointers ol {
+  padding-left: 10px;
+}
+
+.pp_mainPointers ol li, .pp_mainPointers ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.pp_mainPointers a {
+  color: #eb0a1e;
+  text-decoration: underline;
+}
+
+.social-iconnect {
+  float: right;
+}
+
+.social-iconnect li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
 @media (max-width: 991px) {
   .section_heading {
     font-size: 1.5rem;
@@ -347,6 +441,12 @@ section {
 
   .faqs {
     padding: 50px 0;
+  }
+
+  .social-iconnect {
+    float: none;
+    margin: 15px auto;
+    text-align: center;
   }
 }
 
