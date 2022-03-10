@@ -1,0 +1,531 @@
+footer {
+  clear: both;
+  margin: 0 !important;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nopadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+section {
+  max-width: 2000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.owlArrows {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+  right: 10%;
+}
+
+.owlArrows button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 2px solid #eb0a1e;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.owlArrows .c_prev {
+  background-image: url(../../images/toyota-connect/arrow-left.svg);
+}
+
+.owlArrows .c_next {
+  background-image: url(../../images/toyota-connect/arrow-right.svg);
+}
+
+.slider-counter {
+  color: #ffffff;
+}
+
+.iwc {
+  padding: 50px 0 100px;
+}
+.sectionIntro {
+  margin-bottom: 20px;
+}
+.section_heading {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.section_info {
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.v_slider {
+  clear: both;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.v_slider li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-transition: -webkit-box-flex 500ms ease-out;
+  -webkit-transition: -webkit-flex 500ms ease-out;
+  transition: -webkit-box-flex 500ms ease-out;
+  transition: -ms-flex 500ms ease-out;
+  transition: flex 500ms ease-out;
+
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+
+  position: relative;
+}
+
+.v_slider li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.v_slider li:nth-child(1) {
+  background: #f2b635;
+  /* background-image: url(../../images/toyota-connect/smart-connec-2x.png); */
+}
+
+.v_slider li:nth-child(2) {
+  background: #f19a2a;
+  /* background-image: url(../../images/toyota-connect/remote-connect-2x.png); */
+}
+
+.v_slider li:nth-child(3) {
+  background: #49b3e8;
+  /* background-image: url(../../images/toyota-connect/safety-connect-2x.png); */
+}
+
+.v_slider li:nth-child(4) {
+  background: #00a0e6;
+  /* background-image: url(../../images/toyota-connect/service-connect-2x.png); */
+}
+
+.v_slider li:hover {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+}
+
+.v-slider {
+  width: 90%;
+}
+
+.v-slider-Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.selectField select {
+  border: 2px solid #eb0a1e;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.listInfo {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 10%;
+}
+
+.listInfo h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.listInfo p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.listInfo a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #eb0a1e;
+  color: #ffffff;
+  padding: 10px;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  max-width: 150px;
+  margin: 15px auto;
+}
+.listInfo a:hover,
+.listInfo a:focus {
+  text-decoration: none;
+}
+
+.v_slider .owl-nav,
+.v_slider .owl-dots {
+  display: none;
+}
+
+.connectTo .item {
+  -webkit-border-top-left-radius: 12px;
+  -moz-border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
+  -webkit-border-top-right-radius: 12px;
+  -moz-border-top-right-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+}
+
+.connectTo .img {
+  overflow: hidden;
+}
+.connectTo .img img {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.connectTo .img:hover img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.connectTo .slide-info {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+}
+
+.connectTo .slide-info p {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.connectToWrapper {
+  padding-bottom: 50px;
+}
+
+.connectTo.owl-theme .owl-dots .owl-dot span,
+.connectTo.owl-theme .owl-dots .owl-dot span {
+  width: 50px;
+  background: #eb0a1e;
+  opacity: 0.6;
+}
+
+.connectTo.owl-theme .owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
+
+.faqs {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.faqs .panel-heading {
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.faqs .panel-title a {
+  padding: 10px 15px;
+  display: flex;
+    justify-content: space-between;
+}
+
+.faqs .panel-title a:hover, .faqs .panel-title a:focus {
+  text-decoration: none;
+}
+
+.panel-group .panel+.panel {
+  margin-top: 15px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+  border-top-color: transparent;
+}
+
+.faqs .panel-default.active {
+  border-color: #eb0a1e;
+}
+
+.panel-title {
+  font-weight: 700;
+}
+
+.faqs .panel-default.active .panel-title a {
+  color: #eb0a1e;
+}
+
+.faqs .panel-default.active .panel-title span {
+  color: #eb0a1e;
+}
+
+.panel-body {
+  line-height: 1.5;
+}
+
+.panel-body a {
+  color: #eb0a1e;
+  text-decoration: underline;
+}
+
+.content {
+  display: none;
+  margin-bottom: 15px;
+}
+
+.loadmore-btn {
+  display: table;
+  padding: 10px 15px;
+  border: 1px solid #eb0a1e;
+  margin: 0 auto;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.loadmore-btn:hover, .loadmore-btn:focus {
+  text-decoration: none;
+  background-color: #eb0a1e;
+  color: #ffffff;
+}
+
+.tandc {
+  padding: 25px 0;
+  background-color: #eb0a1e;
+}
+
+.learnmore-btn {
+  display: table;
+  width: 150px;
+  padding: 15px 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+.tandc .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tandc ul li {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 5px;
+}
+
+.tandc ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.privacy-notice {
+  padding: 15px 0;
+}
+
+.privacy-notice h2 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.privacy-notice p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.pp_mainPointers {
+  margin: 50px 0;
+}
+
+.pp_mainPointers h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+table ul li {
+  margin-bottom: 10px;
+}
+
+
+.pp_mainPointers ol {
+  padding-left: 10px;
+}
+
+.pp_mainPointers ol li, .pp_mainPointers ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.pp_mainPointers a {
+  color: #eb0a1e;
+  text-decoration: underline;
+}
+
+.social-iconnect {
+  float: right;
+}
+
+.social-iconnect li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@media (max-width: 991px) {
+  .section_heading {
+    font-size: 1.5rem;
+  }
+
+  .section_info {
+    font-size: 16px;
+  }
+
+  .v_slider {
+    height: auto;
+  }
+  .connectTo.owl-theme .owl-dots .owl-dot span,
+  .connectTo.owl-theme .owl-dots .owl-dot span {
+    width: 30px;
+  }
+  .connectTo .slide-info p {
+    font-size: 18px;
+  }
+
+  .v-slider-Wrapper {
+    margin-bottom: 50px;
+  }
+
+  .iwc {
+      padding: 50px 0;
+  }
+
+  .faqs {
+    padding: 50px 0;
+  }
+
+  .social-iconnect {
+    float: none;
+    margin: 15px auto;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .v_slider {
+    clear: both;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 90vh;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .v_slider li {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-transition: -webkit-box-flex 500ms ease-out;
+    -webkit-transition: -webkit-flex 500ms ease-out;
+    transition: -webkit-box-flex 500ms ease-out;
+    transition: -ms-flex 500ms ease-out;
+    transition: flex 500ms ease-out;
+
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+
+    position: relative;
+  }
+
+  .v_slider li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .v_slider li:nth-child(1) {
+    background: #f2b635;
+    /* background-image: url(../../images/toyota-connect/smart-connec-2x.png); */
+  }
+
+  .v_slider li:nth-child(2) {
+    background: #f19a2a;
+    /* background-image: url(../../images/toyota-connect/remote-connect-2x.png); */
+  }
+
+  .v_slider li:nth-child(3) {
+    background: #49b3e8;
+    /* background-image: url(../../images/toyota-connect/safety-connect-2x.png); */
+  }
+
+  .v_slider li:nth-child(4) {
+    background: #00a0e6;
+    /* background-image: url(../../images/toyota-connect/service-connect-2x.png); */
+  }
+
+  .v_slider li:hover {
+    -webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1900px) {
+}
